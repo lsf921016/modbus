@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>SpringBoot模版渲染</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+</head>
+<body>
+    <p th:text="'运行频率（Hz）：' + ${uid}"/>
+    <p th:text="'设定频率（Hz）：' + ${name}"/>
+    <p th:text="'母线电压（V）：' + ${name}"/>
+    <p th:text="'输出电压（V）：' + ${name}"/>
+    <p th:text="'输出电流（A）：' + ${name}"/>
+    <p th:text="'输出功率（kW）：' + ${name}"/>
+    <p th:text="'输出转矩（%）：' + ${name}"/>
+    <p th:text="'DI输入状态：' + ${name}"/>
+    <p th:text="'DO输出状态：' + ${name}"/>
+    <p th:text="'AI1电压（V）：' + ${name}"/>
+    <p th:text="'PID设定：' + ${name}"/>
+    <p th:text="'PID反馈：' + ${name}"/>
+    <p th:text="'反馈速度（Hz）：' + ${name}"/>
+    <p th:text="'AI1校正前电压(V)：' + ${name}"/>
+    <p th:text="'当前上电时间（min）：' + ${name}"/>
+    <p th:text="'当前运行时间（min）：' + ${name}"/>
+    <p th:text="'通讯设定值（%）：' + ${name}"/>
+    <p th:text="'主频率X显示（Hz）：' + ${name}"/>
+    <p th:text="'辅频率Y显示（Hz）：' + ${name}"/>
+    <p th:text="'目标转矩：' + ${name}"/>
+    <p th:text="'故障信息：' + ${name}"/>
+    <p th:text="'变频器状态：' + ${name}"/>
+    <p th:text="'当前故障编码：' + ${name}"/>
+    <p th:text="'转矩上限（%）：' + ${name}"/>
+</body>
+</html>
